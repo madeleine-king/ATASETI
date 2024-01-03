@@ -1,8 +1,9 @@
 # ATASETI
 
-This repo contains my work as a SETI REU Intern to analyze data from the Allen Telescope Array in the search for extraterrestrial intelligence. 
+This repo contains my work as a SETI REU Intern in 2022. 
+ATASETI is a data processing pipeline to handle files, identify target signals, and cull interference from the Allen Telescope Array observational data. 
 
-fullTurbo is a script that automates the process of searching for narrowband doppler drifting signals, filtering them and plotting candidates. It adapts tools from the turboSETI package from the Breakthrough Listen project for use on ATA data. 
+fullTurbo is a shell script that automates the process of searching for narrowband doppler drifting signals, filtering them and plotting candidates. It adapts tools from the turboSETI package from the Breakthrough Listen project for use on ATA data.
 
 findeventATA uses the turboSETI utility find_event_pipeline to filter candidates due to RFI using simultaneous pointings. 
 
